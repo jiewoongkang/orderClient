@@ -6,9 +6,9 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [selectedFood, setSelectedFood] = useState({
-    name: "",
+    name: "토마토 펜네 파스타",
     quantity: 1,
-    price: 0,
+    price: 3000,
   });
 
   const notify = (msg) => {
